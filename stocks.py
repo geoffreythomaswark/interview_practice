@@ -26,7 +26,7 @@ def get_max_profit(stock_prices_yesterday):
 # randomize historical stock prices
 stock_prices_yesterday = random.sample(range(0,50), 10)
 
-#NEGTESTstock_prices_yesterday = [25, 20, 14, 10, 1] -> 4
+#NEGTESTstock_prices_yesterday = [25, 20, 14, 10, 1] -> -4
 #OLDTESTstock_prices_yesterday = [10, 7, 5, 8, 11, 9]
 
 print stock_prices_yesterday
